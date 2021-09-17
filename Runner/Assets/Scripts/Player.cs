@@ -60,7 +60,12 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             Counter.collisions++;
-            print(collisionCount + " collisions detected.");
+        }
+        if (collision.gameObject.tag == "EndZone")
+        {
+            Counter.end = true;
+            ActivateButton.gameFinished = true;
+            speed = 0f;
         }
     }
 
