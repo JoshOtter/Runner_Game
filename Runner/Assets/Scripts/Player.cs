@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Wall")
         {
-            Timer.collisions++;
+            Counter.collisions++;
             print(collisionCount + " collisions detected.");
         }
     }
@@ -68,7 +68,7 @@ public class Player : MonoBehaviour
     {
         if (enemyHits == 2)
         {
-            Timer.collisions++;
+            Counter.collisions++;
             print(collisionCount + " collisions detected.");
             enemyHits = 0;
         }

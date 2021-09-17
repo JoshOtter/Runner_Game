@@ -27033,6 +27033,18 @@ PrefabInstance:
       value: -33.2352
       objectReference: {fileID: 0}
     - target: {fileID: 604282634, guid: 5eb90c6cda871344f986beee729fda2f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 604282634, guid: 5eb90c6cda871344f986beee729fda2f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 604282634, guid: 5eb90c6cda871344f986beee729fda2f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 604282634, guid: 5eb90c6cda871344f986beee729fda2f, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 0
       objectReference: {fileID: 0}
